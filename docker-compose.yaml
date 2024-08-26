@@ -159,6 +159,7 @@ services:
       - kafka1
       - kafka2
       - kafka3
+      - python-app-producer
     command: ["sh", "-c", "sleep 30 && python consumer.py"]
     networks:
       - kafka-network

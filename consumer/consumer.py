@@ -1,5 +1,7 @@
 from confluent_kafka import Consumer, KafkaException, KafkaError
-import sys
+import sys, time
+
+
 
 conf = {
     'bootstrap.servers': "kafka1:9092,kafka2:9093,kafka3:9094",
@@ -9,6 +11,7 @@ conf = {
 
 consumer = Consumer(conf)
 consumer.subscribe(['test-topic'])
+time.sleep(10)
 
 try:
     while True:
