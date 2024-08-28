@@ -17,6 +17,8 @@ producer = Producer(conf)
 
 topic = 'test-topic'
 
+time.sleep(10)
+
 try:
     while True:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
