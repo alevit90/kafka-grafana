@@ -12,7 +12,7 @@ Containers that will be created will have these features:
 - python-app-producer: application for sending messages to kafka
 - python-app-consumer: app for consuming messages to kafka
 
-After create a clone of repository, deploy the environemnt with this command:
+After creating a clone of the repository, enter the kafka-grafana-main folder and deploy the environment with this command:
 
 ```shell
 docker compose up
