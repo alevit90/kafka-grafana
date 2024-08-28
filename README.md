@@ -37,3 +37,5 @@ Clicking on it will display a dashboard containing the following metrics:
 - Consumer Group Lag
 
 Wait about 2 to 3 minutes to see the dashboard updated with the new data
+
+![image](https://github.com/user-attachments/assets/cc9995b9-3946-419b-b2fc-0e36a643e6fe)
