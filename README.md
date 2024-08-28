@@ -24,7 +24,7 @@ Wait for the containers to deploy and then once the grafana container has gone u
 http://localhost:3000/
 ```
 
-You will be asked to change your password when you first log in. Once the change is made log in to grafana and click on dashboards. There will be a dashboard already configured called Monitoring Kafka.
+Log in to the grafana console with the default credentials admin:admin and create a new password. Once the change is made log in to grafana and click on dashboards. There will be a dashboard already configured called Monitoring Kafka.
 
 Clicking on it will display a dashboard containing the following metrics:
 
